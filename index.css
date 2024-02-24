@@ -1,0 +1,1091 @@
+*{
+    margin:0;
+    padding:0;
+}
+.background{
+    position: relative;
+    height:658px;
+    width:100%;
+background-image: linear-gradient(rgb(0,0,0,0.3),rgb(0,0,0,0.3)),url(./www_madebydesignesia_com/5.jpg);
+background-size: 100% 100%;
+}
+.nav{
+    position: fixed;
+    height:70px;
+    width:100%;
+    background-color: white;
+    top:0;
+    z-index: 1;
+}
+.nav img{
+    position: absolute;
+    left:10%;
+    top:7%;
+
+}
+.nav ul{
+    position: absolute;
+    top:35%;
+    font-size: 14px;
+    color:black;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    left:41%;
+}
+.nav li{    transition-duration: 1s;
+
+    float: left;
+margin-left:34px;
+    list-style: none;
+
+}
+.nav li:hover{
+    color:red;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.background h1{
+    position: absolute;
+    font-size:115px;
+    color:#FFFFFF;
+    text-align: center;
+    top:35%;
+    left:2%;
+    line-height: 1;
+    
+    font-family: 'Poppins', sans-serif;
+}
+    /* .background>h1>span{
+     position: absolute;
+    top: 
+    
+ border-bottom: 8px solid red ; 
+   }  */
+ .hri{
+height:10px;
+width:100%;
+position: absolute;
+top:78%;
+left: 0;
+background-image: linear-gradient(to right,#EC3848,#F45B43);
+border: none;
+   } 
+   .website{
+    /* z-index: 0; */
+    height:400px;
+    width:100%;
+    position: relative;
+   }
+   .box1{
+    
+    position: absolute;
+    top:20%;
+    left:11%;
+    height:150px;
+    width:28%;
+   }
+   .box1>i{
+    transition-duration: 1s;
+
+    font-size: 35px;
+    color:red;
+    position: absolute;
+    top:15%;
+
+   }
+   .box1>h1{
+    font-size: 18px;
+    position: absolute;
+    left:15%;
+    top:16%;
+    color:#333333;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   .box1>h2{
+    font-size: 14.5px;
+    position: absolute;
+    left:15%;
+    top:45%;
+    line-height: 1.6;
+    font-weight: 100;
+    color:#898989;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   .box1:hover i{
+    top:1%;
+    transition-duration: 1s;
+    cursor: pointer;
+   }
+   .box2{
+    position: absolute;
+    left:37%; 
+   }
+   .box3{
+    position: absolute;
+    left:63%; 
+   }
+   .box4{
+    position: absolute;
+    top:57%;
+    left:11%; 
+   }
+   .box5{
+    position: absolute;
+    top:57%;
+    left:37%; 
+   }
+   .box6{
+    position: absolute;
+    top:57%;
+    left:63%; 
+   }
+   .black{
+height:550px;
+width:100%;
+background-color: #212121;
+position: relative;
+top:80px;
+   }
+   .black img{
+    position: absolute;
+    top:18%;
+    left:8%;
+    height:340px;
+    width:600px
+   }
+   .do{
+    position: absolute;
+    height:310px;
+    width:400px;
+    top:20%;
+    left:58%;
+   }
+   .do h1{
+    font-size: 32px;
+ font-family: 'Poppins', sans-serif;
+color:#FFFFFF;
+position: absolute;
+top:5%;
+left: 2%;  
+line-height: 1.2; }
+
+.do .hre{
+height:3px !important;
+width:100%;
+position: absolute;
+top:78%;
+left: 0;
+background-image: linear-gradient(to right,#EC3848,#F45B43);
+border: none;
+   } 
+   .do>p{
+    font-size: 14.1px;
+    color:#C7C7BD;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top:42%;
+    left:0%;
+    line-height: 1.9;
+   }
+   .do>button{
+    position: absolute;
+    color:#FFFFFF;
+    border-radius: 50px;
+    border:none;
+    top:80%;
+    font-size: 11px;
+    font-weight: 600;
+    left:0%;
+    height:35px;
+    width:40%;
+background-image: linear-gradient(to right,#EC3848,#F45B43);
+   }
+   .do>button:hover{
+    background-image: linear-gradient(to right,#e22635,#f0472d);
+cursor: pointer;
+   }
+   .envato{
+    position: relative;
+    top:80px;
+    height:550px;
+    width:100%;
+    background-image: url(./www_madebydesignesia_com/gif.gif);
+    background-size: 100% 100%;
+   }
+   .envato>h1{
+    font-size: 150px;
+ font-family: 'Poppins', sans-serif;
+    color:#7777791a;
+    position: absolute;
+    top:25%;
+    left:31%;
+   }
+   .envato .bulb{
+    position: relative;
+    top:26%;
+    left:7%;
+    height:280px;
+    width:85%;
+    /* background-color: blue; */
+   }
+    .bulb .idea{
+        
+    position: absolute;
+    overflow: hidden;
+    border-radius: 10px;
+    height:280px;
+    width:22%;
+    /* left:5%; */
+    /* background-color: yellow; */
+   }
+   .idea>i{
+    font-size: 60px;
+    color:#EC3848;
+    position: absolute;
+    top:33%;
+    left:43%;
+   }
+   .idea>h2{
+    position: absolute;
+    top:60%;
+    left:42%;
+    font-weight: 900;
+    font-size:20px ;
+    font-family: Arial, Helvetica, sans-serif;
+color:#FFFFFF;
+}
+ .idea>h3{
+    position: absolute;
+    font-weight: 100;
+    top:72%;
+    left:40%;
+    font-size:14px ;
+    font-family: Arial, Helvetica, sans-serif;
+color:#818080;
+}
+.idea:hover{
+            border:1px solid lightgray;
+cursor: pointer;
+}
+
+.idea .lorem{
+
+            height:0px;
+    position: absolute;
+     top:100%;
+    border-radius: 10px;
+    width:100%;
+  
+   }
+   .lorem>p{
+    font-size: 16px;
+    color:transparent;
+    position: absolute;
+    top:100px;
+    text-align: center;
+    left:12%;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+   .idea:hover .lorem{
+
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 1px gray;
+    transition-duration: 0.7s;
+    position: absolute;
+    height:280px;
+    top:0%;
+      background-image: linear-gradient(to right,#EC3848,#F45B43);
+   }
+   .idea:hover .lorem>p{
+    cursor: pointer;
+    line-height: 1.6;
+transition: 0.7s;
+    top:30%;
+     color:#FFFFFF;
+   }
+     .idea2{
+    position: absolute;
+    left:25%;
+   }
+   .idea2>i{
+    left:38%;
+    
+   }
+    .idea2>h2{
+    left:36%;
+}
+ .idea2>h3{
+    left:36%;
+}
+
+ .idea3{
+    position: absolute;
+    left:50%;
+   }
+   .idea3>i{
+    left:40%;
+   }
+      .idea3>h2{
+    left:36%;
+}
+ .idea3>h3{
+    left:40%;
+}
+    .idea4{
+    position: absolute;
+    left:75%;
+   }
+      .idea4>h2{
+    left:38%;
+}
+ .idea4>h3{
+    left:38%;
+}
+.hood{
+    height:550px;
+    width:100%;
+    position: relative;
+    top:80px;
+}
+.eve{
+    height:50%;
+    position: absolute;
+    width:33.8%;
+    overflow: hidden;
+}
+.xeye{
+    height:100%;
+        transition: 0.7s;
+    position: absolute;
+    
+    width:100%;
+background-image: url(./www_madebydesignesia_com/pf\ \(1\).jpg);
+background-size: 100% 100%;
+}
+.xeye:hover{
+    transform: scale(1.033);
+    cursor: pointer;
+    transition: 0.7s;
+    /* overflow: hidden; */
+}
+.hand{
+    height:100%;
+
+    position: absolute;
+    width:100%;
+}
+.hand>p{
+    color:transparent;
+    font-size: 17px;
+    position: absolute;
+    top:45%;
+    left:42%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.xeye:hover .hand>p{
+    cursor: pointer;
+    color:#FFFFFF;
+    transition: 0.7s;
+}
+.xeye:hover .hand{
+    cursor: pointer;
+    transition:0.7s ;
+    background-image: linear-gradient(to right,#EC3848,#F45B43);
+
+}
+.eve2 {
+
+    left:33.1%;
+}
+.eve2 .xeye{
+        background-image: url(./www_madebydesignesia_com/pf\ \(2\).jpg);
+
+}
+.eve2 .hand>p{
+    left:36%;
+}
+.eve3 {
+
+       left:66.2%;
+}
+.eve3 .xeye{
+        background-image: url(./www_madebydesignesia_com/pf\ \(3\).jpg);
+
+}
+.eve3 .hand>p{
+    left:36%;
+}
+.eve4 {position: absolute;
+    top:50%;
+  
+}
+.eve4 .xeye{
+     background-image: url(./www_madebydesignesia_com/pf\ \(4\).jpg);
+
+}
+.eve4 .hand>p{
+ left:36%;
+}
+.eve5 {position: absolute;
+    top:50%;
+    left:33.1%;
+  
+}
+.eve5 .xeye{
+     background-image: url(./www_madebydesignesia_com/pf\ \(5\).jpg);
+
+}
+.eve5 .hand>p{
+ left:36%;
+}
+.eve6 {position: absolute;
+    top:50%;
+    left:66.2%;
+  
+}
+.eve6 .xeye{
+     background-image: url(./www_madebydesignesia_com/pf\ \(6\).jpg);
+
+}
+.eve6 .hand>p{
+ left:36%;
+}
+.mobile{
+    position: relative;
+    height:800px;
+    width:100%;
+    color:#FFFFFF;
+}
+.page{
+    position: relative;
+    height: 200px;
+    width:25%;
+    left:10%;
+    top:27%;
+
+}
+.page>ul{
+    position: absolute;
+    top:3%;
+    right:15%;
+    list-style: none;
+  
+}
+.page>ul>li>h1{
+    text-align: right;
+    font-size: 18px;
+    font-weight: 600;
+    color:#212121;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:12%;
+}
+.page>ul>li>p{
+    line-height: 1.7;
+    font-size: 15.5px;
+    color:#909090;
+    font-family: Arial, Helvetica, sans-serif;
+  margin-top:6%;
+  text-align: right;
+
+}
+.page>ul>li>i{
+    position: absolute;
+    top:25%;
+    right:-18%;
+    color:#FFFFFF;
+    font-size: 20px;
+    padding: 13px;
+    width:18px;
+    border-radius: 100px;
+    
+    background-image: linear-gradient(to right,#EC3848,#F45B43);
+text-align: center;
+}
+
+.page1{
+    position: absolute;
+    height: 200px;
+    width:25%;
+    left:10%;
+    top:50%;
+}
+.page2{
+    position: absolute;
+    height: 200px;
+    width:25%;
+    left:10%;
+    top:75%;
+}
+.mob {
+position: absolute;
+height:620px;
+width:25%;
+background-size: 100% 100%;
+background-image: url(./www_madebydesignesia_com/deco_1.png);
+top:27%;
+left:37%;
+
+
+}
+.valid{
+    position: absolute;
+    height: 200px;
+    width:25%;
+    left:64%;
+    top:27%;
+
+}
+.valid>ul{
+    position: absolute;
+    top:3%;
+    right:15%;
+    list-style: none;
+  
+}
+.valid>ul>li>h1{
+   position: absolute;
+   left:15%;
+    font-size: 18px;
+    font-weight: 600;
+    color:#212121;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:12%;
+}
+.valid>ul>li>p{
+    
+    line-height: 1.7;
+    font-size: 15.5px;
+    color:#909090;
+    font-family: Arial, Helvetica, sans-serif;
+  margin-top:25%;
+  width:100%;
+  margin-left: 15%;
+
+}
+.valid>ul>li>i{
+    position: absolute;
+    top:22%;
+    left:-10px;
+    color:#FFFFFF;
+    font-size: 20px;
+    padding: 13px;
+    width:18px;
+    border-radius: 100px;
+    
+    background-image: linear-gradient(to right,#EC3848,#F45B43);
+text-align: center;
+}
+.valid2{
+    position: absolute;
+    top:50%;
+    left:64%;
+}
+.valid3{
+    position: absolute;
+    top:75%;
+    left:64%;
+}
+.make{
+    position: relative;
+    top:150px;
+    background-color: red;
+    height:500px;
+    width:100%;
+}
+.make .keys{position: absolute;
+    height:100%;
+    width:50%;
+    background-image: url(./www_madebydesignesia_com/6\ \(1\).jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.make .dream{
+height:100%;
+position: absolute;
+left:50%;
+background-image: linear-gradient(to right,#EC3848,#F45B43);
+width:50%;
+}
+.dream>h1{
+    font-size: 37px;
+    position: absolute;
+    top:18%;
+    left:15%;
+    color:#FFFFFF;
+    font-family: 'Poppins', sans-serif;
+
+}
+.dream>p{
+    font-size: 16px;
+    line-height: 1.7;
+    position: absolute;
+    word-spacing: -1px;
+    top:32%;
+    left:15%;
+    color:#FBCCCA;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dream>button{
+    transition-duration: 1s;
+
+    position: absolute;
+    top:80%;
+    left:15%;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius:30px;
+    color: #FFFFFF;
+    font-size: 11.5px;
+font-weight: 900;    height:40px;
+    width:140px;
+}
+.dream>button:hover{
+    transition-duration: 1s;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color:#858282;
+    border: none;
+}
+.of{
+    top:150px;
+
+    position: relative;
+
+    height:610px;
+    width:100%;
+}
+.of>h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;position: absolute;
+    color:#212121;
+    top:15%;
+    left:40%;
+  
+}
+.hro{
+    height:4px;
+    width:100%;
+    position: absolute;
+    top:83%;
+    left: 0;
+    background-image: linear-gradient(to right,#EC3848,#F45B43);
+    border: none;
+       } 
+
+
+
+       
+       .of .oscar{
+height:450px;
+position: relative;
+top:26%;
+width:20%;
+left:4%;
+float: left;
+margin-left: 30px;
+       }
+      .oscar .helman{      
+
+        position: absolute;
+        height:320px;
+        width:100%;
+        overflow: hidden;
+       }
+       .helman .founder{
+        transition-duration: 1.5s;
+        height:100%;
+        width:100%;
+        background-image: url(./www_madebydesignesia_com/1.jpg);
+        background-size: 100% 100%;
+       }
+       .helman:hover .founder{
+        cursor: pointer;
+        transform: scale(1.1);
+        transition-duration: 1.5s;
+       }
+       .founder>.ceo{
+        height:25%;
+        position: absolute;
+        top:75%;
+        width:100%;
+        position: absolute;
+       }
+       .ceo>i{
+        position: relative;
+        font-size: 12px;
+        color:#FFFFFF;
+        text-align: center;
+        top:100%;
+        left:14%;
+        padding:10px;
+        border-radius:50px;
+        margin-left: 10px;
+       }
+       .founder:hover .ceo>i{
+        cursor: pointer;
+top:20%;
+transition: 1s;
+       }
+.oscar>h1{
+    font-size: 17px;
+    color:#212121;
+    position: absolute;
+    top:75%;
+    left:26%;
+    font-family: 'Poppins', sans-serif;
+}
+.oscar>p{
+    font-size: 13px;
+    color:#f0472d;
+    position: absolute;
+    top:82%;
+    left:30%;
+    font-family: 'Poppins', sans-serif;
+}
+.oscar .velo{
+    position: relative;
+}
+.velo .helman .founder{
+    background-image: url(./www_madebydesignesia_com/2\ \(1\).jpg);
+}
+.oscar .velo2{
+    position: relative;
+}
+.velo2 .helman .founder{
+    background-image: url(./www_madebydesignesia_com/3.jpg);
+}
+.oscar .velo3{
+    position: relative;
+}
+.oscar>h1{
+    left:28%;
+
+}
+.velo3 .helman .founder{
+    background-image: url(./www_madebydesignesia_com/4\ \(1\).jpg);
+}
+.hour{
+    height:250px;
+    width:100%;
+    position: relative;
+    top:180px;
+    background-color: #212121;
+}
+.worki{
+    height:150px;
+    width:15%;
+    top:50px;
+    left:10%;
+    position: absolute;
+    /* float:left;
+    margin-left:30px; */
+}
+.worki>h1{
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top:15%;
+    left:28%;
+    color:#FFFFFF;
+}
+.worki>h2{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top:50%;
+    font-weight: 100;
+    left:26%;
+    color:#FFFFFF;
+}
+.done{
+    position: absolute;
+    left:31%;
+
+}
+.done>h1{position: absolute;
+    left:35%;
+}
+.done>h2{
+    position: absolute;
+    left:30%;
+}
+.done2{
+    position: absolute;
+    left:53%;
+
+}
+.done2>h1{position: absolute;
+    left:35%;
+}
+.done2>h2{
+    position: absolute;
+    left:20%;
+}.done3{
+    position: absolute;
+    left:75%;
+}
+.done3>h1{position: absolute;
+    left:40%;
+}
+.done3>h2{
+    position: absolute;
+    left:26%;
+}
+.latest{
+    position: relative;
+    top:180px;
+    height:420px;
+    width: 100%;
+}
+.latest>h1{
+    font-size: 35px;
+    position: absolute;
+    left:42%;
+    top:20%;
+    color:#212121;
+    font-family: 'Poppins', sans-serif;
+}
+.hrt{
+    position: absolute;
+    top:90%;
+    left:0%;
+    height:3px;
+    width:100%;
+    background-image: linear-gradient(to right,#EC3848,#F45B43);
+    border: none;
+}
+.latest .june{
+    position: relative;
+    float: left;
+    margin:10px;
+    left:7%;
+    top:40%;
+    height:150px;
+    width:26%;
+}
+.june .twelve{
+    height:50px;
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+
+    width:50px;
+    background-image: linear-gradient(to right,#EC3848,#F45B43);
+    position: absolute;
+    top:5%;
+    left:5%;
+}
+.june .jun{
+    height:25px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+
+    width:50px;
+background-color: #212121;
+    position: absolute;
+    top:35%;
+    left:5%;
+}
+.june>h1{
+    position: absolute;
+    top:5%;
+    left:25%;
+    color:#212121;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+.june>p{
+    position: absolute;
+    top:30%;
+    left:25%;
+    color:#818080;
+    font-size: 12.6px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+}
+.contact{
+    position: relative;
+    top:180px;
+    height:700px;
+    width:100%;
+    background-color: #212121;
+
+}
+.contact>h1{
+    color:#FFFFFF;
+}
+
+.contact .name>input{
+    position: absolute;
+    top:32%;
+    left:23%;
+    height:40px;
+    width:25%;
+    border-radius: 5px;
+    border: 1px solid #7a7878;
+    background-color: transparent;
+    color:white;
+    padding-left:10px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  
+}
+.contact .name3>input{
+    position: absolute;
+    top:40%;
+    border-radius: 5px;
+    left:23%;
+    height:40px;
+    width:25%;
+    border: 1px solid #7a7878;
+    background-color: transparent;
+    color:white;
+    padding-left:10px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.contact .name4>input{
+    position: absolute;
+    top:48%;
+    left:23%;
+    height:40px;
+    width:25%;
+    border-radius: 5px;
+
+    border: 1px solid #7a7878;
+    background-color: transparent;
+    color:white;
+    padding-left:10px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.contact .name5>textarea{
+    position: absolute;
+    padding: 10px;
+    top:32%;
+    left:51%;
+    height:135px;
+    width:25%;
+    border-radius: 5px;
+    outline:none;
+    border: 1px solid #7a7878;
+    background-color: transparent;
+    color:white;
+    padding-left:10px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px; 
+}
+::placeholder{
+    color:#ffffff;
+}
+.contact>button{
+    position: absolute;
+    transition-duration: 0.7s;
+
+    top:58%;
+    left:45%;
+    height:40px;
+    width:160px;
+    background-image: linear-gradient(to right,#EC3848,#F45B43);
+    color:#FFFFFF;
+    font-size: 11px;
+    border-radius: 20px;
+    font-weight: 600;
+    text-align: center;
+    border:none;
+}
+.contact>button:hover{
+    background-image: linear-gradient(to right,#f02b3b,#fd5237);
+    color:#b4b3b3;
+    cursor: pointer;
+    transition-duration: 0.7s;
+}
+.contact .call{
+    position: relative;
+    height:100px;
+    width:250px;
+    top:75%;
+    left:4.5%;
+    margin-left:130px;
+    float:left;
+}
+.call>h5{
+    position: absolute;
+    top:30%;
+left:38%;    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: 600;
+    color:#FFFFFF;
+}
+.call>h6{
+    position: absolute;
+    top:55%;
+left:23%;    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: 100;
+    color:#e0dcdc;
+}
+.call2>h6{
+    position: absolute;
+    left:15px;
+  width:250px;
+}
+.call3>h6{
+    position: absolute;
+    left:30px;
+  width:250px;
+}
+.copyright{
+    position: relative;
+    top:180px;
+    height:100px;
+    width:100%;
+    background-color: #FFFFFF;
+}
+.copyright>h2{
+    position: absolute;
+    top:43%;
+    font-weight: 100;
+    left:9%;
+    font-size: 14px;
+    color:#7a7878;
+    font-family: 'Poppins', sans-serif;
+
+}
+.right{
+    position: relative;
+    top:25%;
+    left:69%;
+    height:50px;
+    width:300px;
+}
+.right>i{
+    position: relative;
+    top:5%;
+    left:5%;
+    text-align: center;
+    margin-left:10px;
+    padding:10px;
+    border-radius: 100px;
+    transition-duration: 2s;
+    color:#FFFFFF;
+}
+.right>i:hover{
+    background-image: linear-gradient(to right,#fffefe,#ffffff);
+    cursor: pointer;
+    transition-duration: 2s;
+    color:#333333;
+}
+
